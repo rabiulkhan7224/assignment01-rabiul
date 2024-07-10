@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0px;
 }
 
 
-/* nav style */
+/* nav style  part 1 */
 nav {
     display: flex;
     justify-content: space-between;
     background-color: antiquewhite;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .name {
@@ -15,22 +17,351 @@ nav {
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
+    margin: 10px 50px;
 }
-.d-btn{
+
+.d-btn {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-border: 2px solid rgba(0, 0, 0, 0.808);
-border-radius: 8px;
-align-items: center;
-justify-content: center;
-display: flex;
-width: 228px;
-height: 58px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid rgba(0, 0, 0, 0.808);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 228px;
+    height: 58px;
 }
-.Hero{
+
+/* hero section part 2 */
+
+.Hero {
+    display: flex;
+
     background-image: url(assets/hero-bg.png);
     width: 1440px;
-height: 652px;
+    height: 652px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hero-title {
+    /* position: absolute; */
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-title p {
+    text-align: center;
+
+}
+
+.hero-btn {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+/* info style part 3 */
+.info {
+    width: 1140px;
+    height: 1395px;
+    background: hsla(222, 43%, 9%, 0.02);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+
+}
+
+.info-title {
+    text-align: center;
+    width: 852px;
+    height: 115px;
+    margin: 48px;
+}
+
+.tag1 {
+
+    width: 850px;
+    height: 240px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px sol/id red; */
+    margin: 48px;
+
+}
+
+.tag-details {
+    width: 477px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+
+
+}
+
+.tag-details h1 {
+    color: rgba(13, 19, 33, 0.751);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    /* width: 852px;
+    height: 39px; */
+
+
+}
+
+.tag-details p {
+    width: 468px;
+    height: 52px;
+    color: rgba(13, 19, 33, 0.726);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.tag-details button {
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.381);
+    border-radius: 5px;
+
+}
+
+/* my inspiration , part 4 */
+.my-inspiration {
+    width: 1140px;
+    height: 775px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.inspiration-title {
+    text-align: center;
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.inspiration-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.inspiration-video {
+    width: 1076px;
+    height: 550px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+
+}
+
+/* my-target */
+.my-target {
+    height: 115px;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.programming-lang {
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.html {
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    width: 284px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    
+}
+
+.css {
+    /* border: 2px solid red; */
+    width: 284px;
+    height: 220px;
+    margin: 10px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.javascript {
+    margin: 10px;
+    /* border: 2px solid red; */
+    width: 284px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+/* my-next-target */
+.my-next-target {
+    height: 115px;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.react-js {
+    width: 1140px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    /* text-align: center; */
+
+
+}
+
+
+.note-js {
+    width: 1140px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    /* text-align: center; */
+
+}
+
+.Mongobd {
+    width: 1140px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    /* text-align: center; */
+    /* border: 2px solid red; */
+    
+
+}
+
+.mongodb-text{
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    height: 30px;
+;}
+
+
+
+
+
+
+.support {
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 314px;
+
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 48px; */
+
+
+
+
+}
+
+input {
+    width: 548px;
+    height: 57px;
+    margin: top 60px;
+    ;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 58px;
+    font-size: medium;
+
+
+
+
+
+
+}
+
+footer {
+    /* border: 2px solid red; */
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+
+#footer-text {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-left: 150px auto;
+    font-size: large;
+    width: 660px;
+}
+
+.img-footer {
+    margin: 50px auto;
+    /* border: 2px solid red; */
+    width: 640px;
 }
